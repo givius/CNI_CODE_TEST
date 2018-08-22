@@ -1,0 +1,10 @@
+require 'json'
+require 'logger'
+require 'sinatra'
+require 'sinatra/cookies'
+require 'rubygems'
+require 'rest-client'
+
+require 'helpers/helpers'
+require 'routes/admin'
+require 'routes/news_search'

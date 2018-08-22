@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title><%= title %>></title>
+
+  <% if dev_mode %>
+    <link rel="stylesheet" href="/css/main.css" type="text/css">
+  <% else %>
+    <link rel="stylesheet" href="/compiled/main.css" type="text/css">
+  <% end %>
+</head>
+<body>
+  <big>CNI - Code Test </big>
+  <div id="cni-main">
+    <div id="cni-top-bar">
+      <button>Latest News</button>
+      <label>
+        Search: <input type="text" name="search">
+      </label>
+      <div id="cni-spinner">One moment please, fetching news..</div>
+    </div>
+
+    <div id="cni-body"></div>
+  </div>
+
+  <% if dev_mode %>
+    <script data-main="/apps/news_test/main.js" src="/src/libs/require.js"></script>
+  <% else %>
+    <script data-main="/compiled/news_test-build.js" src="/src/libs/require.js"></script>
+  <% end %>
+</body>
+</html>

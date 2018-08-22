@@ -1,0 +1,12 @@
+/* TOP BAR */
+#cni-top-bar {padding: 8px; background-color: lightgrey; border: 1px solid darkgray; font-size: 16px}
+#cni-top-bar button {}
+#cni-top-bar label {float: right}
+#cni-spinner {clear: both; background-color: lightgoldenrodyellow; padding: 8px; margin-top: 10px; color: #0b3e6f; display: none}
+
+/* BODY */
+#cni-body {padding: 4px}
+
+.cni-article {padding: 4px; border: 1px solid grey; clear: both; overflow: hidden;}
+.cni-article img {float: left; margin: 4px; max-width: 100px; max-height: 100px}
+.cni-source-name {color: darkgray}

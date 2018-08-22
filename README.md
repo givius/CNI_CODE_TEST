@@ -20,7 +20,6 @@ But you will notice an small implementation on the index.erb of how to use of th
 * JS tests are missing. I like to do test driven development, but that requires more time. But I have added 
 tests for the backend code, so you can have an idea of my test coding skills. 
 
-
   Requirements
 ===================================
 * Ruby >= 2.4.3
